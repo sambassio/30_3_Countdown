@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    margin: 0; /* Reset default margin */
+}
+
+.countdown-container {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.countdown-element {
+    font-size: 3em;
+    margin: 10px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+small {
+    display: block;
+    font-size: 0.5em;
+}
+
+.twitter-link {
+    color: #1DA1F2; 
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.twitter-link:hover,
+.twitter-link:visited {
+    color: #1DA1F2;
+}
